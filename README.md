@@ -2,7 +2,7 @@
 ## GIT CHEAT SHEET
 
 
-#### INSTALL GIT
+### INSTALL GIT
 GitHub provides desktop clients that include a graphical user interface for the most common repository actions and an automatically updating command line edition of Git for advanced scenarios.
 
 ##### GitHub for Windows
@@ -19,10 +19,10 @@ Git distributions for Linux and POSIX systems are available on the official Git 
 
 
 
-### CONFIGURE TOOLING
-Configure user information for all local repositories
+## CONFIGURE TOOLING
+**Configure user information for all local repositories**
 
-```git
+```
 $ git config --global user.name "[name]"
 Sets the name you want attached to your commit transactions
 
@@ -33,8 +33,8 @@ $ git config --global color.ui auto
 Enables helpful colorization of command line output
 ```
 
-### CREATE REPOSITORIES
-Start a new repository or obtain one from an existing URL
+## CREATE REPOSITORIES
+**Start a new repository or obtain one from an existing URL**
 
 ```
 $ git init [project-name]
@@ -44,8 +44,8 @@ $ git clone [[url]
 Downloads a project and its entire version history
 ```
 
-### MAKE CHANGES
-Review edits and craft a commit transaction
+## MAKE CHANGES
+**Review edits and craft a commit transaction**
 
 ```
 $ git status
@@ -73,8 +73,8 @@ $ git commit -m "[descriptive message]"
 Records file snapshots permanently in version history
 ```
 
-### GROUP CHANGES
-Name a series of commits and combine completed efforts
+## GROUP CHANGES
+**Name a series of commits and combine completed efforts**
 
 ```
 $ git branch
@@ -93,8 +93,8 @@ $ git branch -d [branch-name]
 Deletes the specified branch
 ```
 
-### REFACTOR FILENAMES
-Relocate and remove versioned files
+## REFACTOR FILENAMES
+**Relocate and remove versioned files**
 
 ```
 $ git rm [file]
@@ -107,8 +107,8 @@ $ git mv [file-original] [file-renamed]
 Changes the file name and pepares
 ```
 
-### SUPPRESS TRACKING
-Exclude temporary files and paths
+## SUPPRESS TRACKING
+**Exclude temporary files and paths**
 
 ```
 *.log
@@ -120,8 +120,8 @@ $ git ls-files --other --ignored --exclude-standard
 Lists all ignored files in this project
 ```
 
-### SAVE FRAGMENTS
-Shelve and restore incomplete changes
+## SAVE FRAGMENTS
+**Shelve and restore incomplete changes**
 
 ```
 $ git stash
@@ -137,8 +137,8 @@ $ git stash drop
 Discards the most recently stashed changeset
 ```
 
-### REVIEW HISTORY
-Browse and inspect the evoluton of project files
+## REVIEW HISTORY
+**Browse and inspect the evoluton of project files**
 
 ```
 $ git log
@@ -154,8 +154,8 @@ $ git show [commit]
 Outputs metadata and content changes of the specified commit
 ```
 
-### REDO COMMITS
-Erase mistakes and craft replacement history
+## REDO COMMITS
+**Erase mistakes and craft replacement history**
 
 ```
 $ git reset [commit]
@@ -165,8 +165,8 @@ $ git reset --hard [commit]
 Discards all history and changes back to the specified commit
 ```
 
-### SYNCHRONIZE CHANGES
-Register a repository bookmark and exchange version history
+## SYNCHRONIZE CHANGES
+**Register a repository bookmark and exchange version history**
 
 ```
 $ git fetch [bookmark]
